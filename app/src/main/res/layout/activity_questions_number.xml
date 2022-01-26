@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionsNumber"
+    android:background="@color/Primary"
+    android:layout_gravity="center"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Quiz Creation"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/QuestionNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="571dp"
+        android:gravity="center_vertical"
+        android:hint="Enter the number of questions. -> Min.Number (3) and Max.Number(10)"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textColorHint="@color/white" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="313dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="189dp"
+        android:src="@drawable/quiztime" />
+
+    <Button
+        android:id="@+id/NextToQuiz"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="149dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Return to Quiz Creating"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/SaveNumbers"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginBottom="481dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Save for Quiz 1"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/SaveNumbers2"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="481dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Save for Quiz 2"
+        android:textColor="@color/black" />
+
+
+</RelativeLayout>
